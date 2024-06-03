@@ -1,41 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--icono del titulo de la pagina-->
-    <!-- Estilos personalisados-->
+    <!-- Estilos personalizados -->
     <link rel="stylesheet" href="../css/style.css">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="../vendor/Bootstrap/bootstrap5.2.3.min.css">
-    <!-- AdminLTE -->
-    <link rel="stylesheet" href="../vendor/AdminLTE/adminlte3.2.0.min.css">
-    <!-- FontAwesome -->
-    <link rel="stylesheet" href="../fontawesome/css/fontawesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-
+    <!-- Bootstrap 5.2 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <!-- AdminLTE 3.2 CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/css/adminlte.min.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Cocteles y Bebidas</title>
 </head>
-<body>
+
 <body class="hold-transition sidebar-mini">
     <!-- Header -->
     <header>
         <div class="container-fluid">
-            <div class="row banner">
-                <div class="col-2 col-lg-1 col-md-1 col-sm-2 col-xs-2">
-                </div>
-                <div class="col-4 col-lg-5 col-md-5 col-sm-4 col-xs-4" style="color:#FFF;">
+            <div class="row banner py-3">
+                <div class="col-12 col-lg-8">
+                    <h4 class="mb-0" id="site-title">Cocteles y Bebidas</h4>
                 </div>
             </div>
-            <div class="row bannerEventos">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 txtEventos">
-
+            <div class="row bannerEventos py-2">
+                <div class="col-12 col-lg-8">
+                    <h2 class="mb-0" id="site-subtitle">Encuentra recetas para tus cócteles favoritos</h2>
                 </div>
             </div>
         </div>
     </header>
-</body>
-
-</html>
+    <!-- /.header -->

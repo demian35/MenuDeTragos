@@ -1,3 +1,55 @@
-html{
-    background-color: cyan;
+/* css/style.css */
+
+body {
+    font-family: Arial, sans-serif;
 }
+
+header {
+    background-color: #c501e3;
+    color: white;
+}
+
+header .banner {
+    background-color: #c501e3;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+header .banner h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    text-align: left;
+    color: #fff;
+}
+
+header .bannerEventos {
+    background-color: aqua;
+    padding: 10px 0;
+}
+
+header .bannerEventos h2 {
+    font-size: 1.25rem;
+    font-weight: normal;
+    margin: 0;
+    text-align: left;
+    color: midnightblue;
+}
+
+#site-title {
+    margin-left: 10px; /* Adjust margin to position the title */
+}
+
+#site-subtitle {
+    margin-left: 10px; /* Adjust margin to position the subtitle */
+}
+
+@media (max-width: 768px) {
+    header .banner h4, header .bannerEventos h2 {
+        font-size: 1rem; /* Smaller font size for smaller screens */
+    }
+}
+
+
+/* cuerpo de la pagina  */
