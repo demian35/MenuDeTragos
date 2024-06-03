@@ -2,7 +2,7 @@
 <?php include("../templates/sidebar.php"); ?>
 
 <!-- Content Wrapper. Contains page content -->
-<div class="content-wrapper">
+<div class="content-wrapper"  id="cuerpoProyecto">
 
     <!-- Main content -->
     <div class="content">
