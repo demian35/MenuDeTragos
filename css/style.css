@@ -51,9 +51,12 @@ header .bannerEventos h2 {
     }
 }
 
+#navheader{
+    background-color:yellow ;
+}
 
 /* cuerpo de la pagina  */
 #cuerpoProyecto {
-    background-color: purple; /* Color de fondo */
+    background-color: #c501e3; /* Color de fondo */
    
 }
